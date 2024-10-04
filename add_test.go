@@ -1,14 +1,14 @@
 package main
 
 import (
-	"testing"
 	"math"
+	"testing"
 )
 
 func TestAdd(t *testing.T) {
 	testCases := []struct {
-		a int
-		b int
+		a        int
+		b        int
 		expected int
 	}{
 		{0, 0, 0},
@@ -48,8 +48,8 @@ func TestAdd(t *testing.T) {
 
 func TestSubtract(t *testing.T) {
 	testCases := []struct {
-		a int
-		b int
+		a        int
+		b        int
 		expected int
 	}{
 		{0, 0, 0},
@@ -89,8 +89,8 @@ func TestSubtract(t *testing.T) {
 
 func TestMultiply(t *testing.T) {
 	testCases := []struct {
-		a int
-		b int
+		a        int
+		b        int
 		expected int
 	}{
 		{0, 0, 0},
@@ -130,8 +130,8 @@ func TestMultiply(t *testing.T) {
 
 func TestDivide(t *testing.T) {
 	testCases := []struct {
-		a int
-		b int
+		a        int
+		b        int
 		expected int
 	}{
 		{0, 0, 0},
@@ -168,4 +168,3 @@ func TestDivide(t *testing.T) {
 		}
 	}
 }
-

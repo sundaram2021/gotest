@@ -1,14 +1,14 @@
 package main
 
 import (
-	"testing"
 	"math"
+	"testing"
 )
 
 func TestBinarySearch(t *testing.T) {
 	testCases := []struct {
-		arr []int
-		target int
+		arr      []int
+		target   int
 		expected int
 	}{
 		{nil, 0, 0},
@@ -35,4 +35,3 @@ func TestBinarySearch(t *testing.T) {
 		}
 	}
 }
-
